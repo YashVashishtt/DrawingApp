@@ -1,0 +1,110 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Source Code Pro, monospace;
+   overflow: hidden;
+}
+
+
+
+
+body {
+   background-color: #111;
+   width: 100%;
+   height: 100vh;
+}
+
+
+
+.nav{
+   width: auto;
+   height: 50px;
+   position: fixed;
+   top: 1%;
+   left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   transition: opacity .5s;
+   background: linear-gradient(to right, rgb(255, 115, 0),rgb(0, 0, 0));
+   padding: 10px;
+   border-radius: 10px;
+   border: 3px solid white;
+
+
+}
+
+.clr{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   border: 3px solid white;
+   margin: 0 6px;
+   transition: 0.3s;
+}
+.clr:hover{
+   transform: scale(1.2);
+}
+
+
+.clr:nth-child(1){
+   background-color: black;
+}
+.clr:nth-child(2){
+   background-color: red;
+}
+.clr:nth-child(3){
+   background-color: orange;
+}
+.clr:nth-child(4){
+   background-color: blue;
+}
+.clr:nth-child(5){
+   background-color: purple;
+}
+.clr:nth-child(6){
+   background-color: green;
+}
+.clr:nth-child(7){
+   background-color: yellow;
+}
+.clr:nth-child(8){
+   background-color: #fff;
+}
+
+button:hover{
+   background-color: black;
+   color: cyan;
+}
+
+button{
+   padding: 5px;
+   margin: 5px;
+   text-transform: capitalize;
+   border: 2px solid white;
+   border-radius:5px;
+   background-color: cyan;
+   font-family: cursive;
+   font-weight: 600;
+}
+
+output{
+   color: white;
+}
+
+#favcolor:hover{
+   transform: scale(1.2);
+}
+
+#favcolor{
+   width: 30px;
+   height: 30px;
+   outline: none;
+   border: none;
+   margin: 0 10px;
+   transition: 0.3s;
+   
+}
+
